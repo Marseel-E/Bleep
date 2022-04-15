@@ -1,20 +1,20 @@
 ![Python version](https://img.shields.io/badge/Python->%3D3.9-blue?style=flat&logo=python&logoColor=yellow&link=https://www.python.org/downloads/)
 
-# Bleep
+# Bleep-it
 Text filtering tool
 
 # :clipboard:  Table Of Content
 [Installation](#installation)  
 [Quickstart](#quickstart)  
 [Documentation](#documentation)  
-[Bleep Tools](#bleep-tools)  
+[Bleep-it Tools](#bleep-it-tools)  
 [License](LICENSE)  
 
 # Installation
 ```cmd
-pip install bleep
+pip install bleep-it
 # OR
-pip install https://github.com/Marseel-E/bleep
+pip install https://github.com/Marseel-E/bleep-it
 ```
 
 # Quickstart
@@ -84,8 +84,8 @@ The censored replacement for the word.
 Removes the filtered word from the text.
 
 
-# Bleep Tools
-[Bleep Tools](https://github.com/Marseel-E/bleep-tools) is an extension for Bleep that allows you to
+# Bleep-it Tools
+[Bleep-it Tools](https://github.com/Marseel-E/bleep-it-tools) is an extension for Bleep-it that allows you to
 - [x] Create custom words.  
 - [ ] ~~Generate other languages.~~ `soon`
 
