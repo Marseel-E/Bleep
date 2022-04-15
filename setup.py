@@ -21,7 +21,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "bleep-it"},
-    packages=setuptools.find_packages(where="bleep-it"),
+    package_dir={"": "bleep"},
+    packages=setuptools.find_packages(where="bleep"),
     python_requires=">=3.9",
 )
