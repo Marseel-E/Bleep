@@ -200,7 +200,7 @@ def decrypt_spaces(text_list: list[str], word: str) -> str:
 	return decrypt_numerology(word)
 
 
-async def _filter(text: str, strickness: int|None = 2, action: Censor|Remove = Censor()) -> None:
+async def filter(text: str, strickness: int|None = 2, action: Censor|Remove = Censor()) -> None:
 	"""Filters the text based on the action given with the preferred strickness level.
 
 	Parameters:
