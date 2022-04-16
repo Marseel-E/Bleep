@@ -13,8 +13,9 @@ Text filtering tool
 # Installation
 ```cmd
 pip install bleep-it
-# OR
-pip install https://github.com/Marseel-E/bleep-it
+
+:: for Latest (unstable)
+pip install git+https://github.com/Marseel-E/bleep-it
 ```
 
 # Quickstart
