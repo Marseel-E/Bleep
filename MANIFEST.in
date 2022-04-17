@@ -1,1 +1,1 @@
-global-include *.txt *.py bleep/data.json
+global-include *.txt *.py *.json
