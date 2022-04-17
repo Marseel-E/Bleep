@@ -22,6 +22,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "bleep"},
+    package_data={"bleep": ["data.json"]},
     packages=setuptools.find_packages(where="bleep"),
     python_requires=">=3.9",
 )
