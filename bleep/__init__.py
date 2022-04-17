@@ -37,7 +37,7 @@ class Remove:
 
 
 def get_banned_words(strickness: int) -> list[str]:
-	"""Fetches the words to filter out from the data.json file.
+	"""Fetches the words to filter out from the bleep-it-data.json file.
 
 	Parameters:
 	-----------
@@ -48,7 +48,7 @@ def get_banned_words(strickness: int) -> list[str]:
 		list[str] - A list of all the words to be detected.
 	"""
 
-	with open('data.json', 'r') as f:
+	with open('bleep-it-data.json', 'r') as f:
 		data = json.loads(f.read())
 
 	banned_words = []
