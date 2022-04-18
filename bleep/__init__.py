@@ -197,20 +197,20 @@ def decrypt_spaces(text_list: list[str], word: str) -> str:
 	if not detect_spaces(word): return word
 
 	for i, _word in enumerate(text_list):
-		if (i > text_list.index(word)) and (detect_spaces(word)):
+		if ((word in text_list) and (i > text_list.index(word))) and (detect_spaces(word)):
 			word += _word
 
 	return decrypt_numerology(word)
 
 
-async def filter(text: str, strickness: int|None = 2, action: Censor|Remove = Censor()) -> None:
+async def filter(text: str, strickness: int | None = 2, action: Censor | Remove = Censor()) -> None:
 	"""Filters the text based on the action given with the preferred strickness level.
 
 	Parameters:
 	-----------
 		'text' <str> - The text to be filtered.
 		'strickness' <int> *(optional)* - The type of words to be filtered.
-		'action' <Censor|Remove> *(optional)* - How to deal with the words to be filtered.
+		'action' <Censor | Remove> *(optional)* - How to deal with the words to be filtered.
 
 	Returns:
 	--------
