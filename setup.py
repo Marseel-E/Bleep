@@ -6,7 +6,7 @@ with open("README.md", 'r', encoding="utf-8") as fh:
 
 setuptools.setup(
     name="bleep-it",
-    version="0.1.7",
+    version="0.1.8",
     author="Marseel Eeso",
     author_email="marseeleeso@gmail.com",
     description="Text filtering tool",
@@ -23,7 +23,7 @@ setuptools.setup(
     ],
     package_dir={"": "bleep"},
     packages=setuptools.find_packages(where="bleep"),
-    package_data={"bleep": ["bleep-it-data.json"]},
+    package_data={"bleep": ["data.json"]},
     include_package_data=True,
     python_requires=">=3.9",
 )

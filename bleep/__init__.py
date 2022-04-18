@@ -4,6 +4,9 @@ __all__ = ['filter', 'Censor', 'Remove']
 import json
 import random
 
+from setuptools import pkg_resources
+bleep_it_data = pkg_resources.resource_filename("<bleep-it>", "data.json") 
+
 
 class Censor:
 	def __init__(self, style: str | list[str] | None = '*') -> None:
@@ -37,7 +40,7 @@ class Remove:
 
 
 def get_banned_words(strickness: int) -> list[str]:
-	"""Fetches the words to filter out from the bleep-it-data.json file.
+	"""Fetches the words to filter out from the data.json file.
 
 	Parameters:
 	-----------
@@ -48,7 +51,7 @@ def get_banned_words(strickness: int) -> list[str]:
 		list[str] - A list of all the words to be detected.
 	"""
 
-	with open('bleep-it-data.json', 'r') as f:
+	with open(bleep_it_data, 'r') as f:
 		data = json.loads(f.read())
 
 	banned_words = []
