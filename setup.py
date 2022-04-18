@@ -6,7 +6,7 @@ with open("README.md", 'r', encoding="utf-8") as fh:
 
 setuptools.setup(
     name="bleep-it",
-    version="0.1.8",
+    version="0.1.9",
     author="Marseel Eeso",
     author_email="marseeleeso@gmail.com",
     description="Text filtering tool",

@@ -4,7 +4,7 @@ __all__ = ['filter', 'Censor', 'Remove']
 import json
 import random
 
-from setuptools import pkg_resources
+import pkg_resources
 bleep_it_data = pkg_resources.resource_filename("<bleep-it>", "data.json") 
 
 
