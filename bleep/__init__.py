@@ -5,7 +5,7 @@ import json
 import random
 
 import pkg_resources
-bleep_it_data = pkg_resources.resource_filename("bleep-it", "data.json") 
+bleep_it_data = pkg_resources.resource_filename("bleep", "data.json") 
 
 
 class Censor:
